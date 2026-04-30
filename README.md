@@ -64,7 +64,7 @@ Install-Package WPFDevelopers
 ``` XML
 xmlns:wd="https://github.com/WPFDevelopersOrg/WPFDevelopers"
 ```
-#### 1.1.0.3-preview1 and above versions
+
 ``` XML
     <Application.Resources>
         <ResourceDictionary>
@@ -79,25 +79,16 @@ xmlns:wd="https://github.com/WPFDevelopersOrg/WPFDevelopers"
         </ResourceDictionary>
     </Application.Resources>
 ```
-#### 1.1.0.3-preview1 and below versions
-``` XML
-    <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                    <ResourceDictionary Source="pack://application:,,,/WPFDevelopers;component/Themes/Light.Blue.xaml"/>
-                    <!--需要注意 wd:Resources 必须在配色主题后，Theme="Dark" 为黑色皮肤-->
-                    <wd:Resources Theme="Light"/>
-                    <ResourceDictionary Source="pack://application:,,,/WPFDevelopers;component/Themes/Theme.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Application.Resources>
-```
 
 ###  Step 3: Add the namespace;
 
 `xmlns:wd="https://github.com/WPFDevelopersOrg/WPFDevelopers"`
 
 ----------
+### DataGridFilter
+
+<img src="https://github.com/WPFDevelopersOrg/ResourcesCache/raw/main/resources/WPFDevelopersResource/DataGridFilter.gif"/>   
+
 ### AnimatedGrid
 
 <img src="https://github.com/WPFDevelopersOrg/ResourcesCache/raw/main/resources/WPFDevelopersResource/AnimatedGrid.gif"/>   
